@@ -1,0 +1,14 @@
+import java.io.*;
+class File1{
+public static void main(String args[])throws
+FileNotFoundException,IOException
+{
+   int k=0;
+FileInputStream fin=new FileInputStream("File1.text");
+while(k!=-1)
+{
+  k=fin.read();
+System.out.println(char)k);
+    }
+ }
+}
